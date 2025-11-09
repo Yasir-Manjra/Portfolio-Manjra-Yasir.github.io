@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Manjra Yasir</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="index.js">
+    </head>
+    <body>
+    <header class="site-header">
+        <div class="logo">
+            <a href="#">
+                <h1>Manjra Yasir</h1>
+            </a>
+            <div class="tag">Étudiant • BUT Informatique</div>
+        </div>
+
+        <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#about">À propos</a>
+            <a href="#competences">Compétences</a>
+            <a href="#projects">Projets</a>
+            <a href="#formation">Formation</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>A propos de moi</h2>
+            <div style="display:flex; align-items:center; gap:32px; flex-wrap:wrap;">
+                <img src="Image/photo_profil.jpg" alt="Photo de Manjra Yasir" style="width:140px; height:140px; object-fit:cover; border-radius:50%; box-shadow:0 2px 12px rgba(9,29,47,0.15);">
+                <div>
+                    <p style="font-size:1.1em; margin-bottom:12px;">Bonjour ! Je m'appelle <strong>Manjra Yasir</strong>, étudiant passionné en 2ème année de BUT Informatique à l'Université Sorbonne Paris Nord.</p>
+                    <p style="margin-bottom:12px;">Curieux, rigoureux et créatif, j'aime relever des défis techniques et collaborer sur des projets innovants. Je recherche un stage à partir de janvier pour mettre en pratique mes compétences et contribuer à des missions stimulantes.</p>
+                    <p style="margin-bottom:0;">Ce portfolio retrace mon parcours académique, mes réalisations et mes ambitions professionnelles. N'hésitez pas à me contacter pour échanger !</p>
+                </div>
+            </div>
+        </section>
+        <section id="competences">
+            <h2>Mes Compétences</h2>
+            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:24px;">
+                <div style="background:rgba(9,29,47,0.7); border-radius:8px; padding:18px; text-align:center; color:#e0eafc;">
+                    <span style="font-size:2em;">💻</span>
+                    <h3 style="margin:12px 0 8px 0; font-size:1.15em;">Programmation</h3>
+                    <p>Python, Java, Arduino</p>
+                </div>
+                <div style="background:rgba(9,29,47,0.7); border-radius:8px; padding:18px; text-align:center; color:#e0eafc;">
+                    <span style="font-size:2em;">🌐</span>
+                    <h3 style="margin:12px 0 8px 0; font-size:1.15em;">Développement Web</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+                <div style="background:rgba(9,29,47,0.7); border-radius:8px; padding:18px; text-align:center; color:#e0eafc;">
+                    <span style="font-size:2em;">🗄️</span>
+                    <h3 style="margin:12px 0 8px 0; font-size:1.15em;">Bases de données</h3>
+                    <p>SQL, conception et gestion</p>
+                </div>
+                <div style="background:rgba(9,29,47,0.7); border-radius:8px; padding:18px; text-align:center; color:#e0eafc;">
+                    <span style="font-size:2em;">🤝</span>
+                    <h3 style="margin:12px 0 8px 0; font-size:1.15em;">Collaboration & Projet</h3>
+                    <p>Travail en équipe, gestion de projet, communication</p>
+                </div>
+                <div style="background:rgba(9,29,47,0.7); border-radius:8px; padding:18px; text-align:center; color:#e0eafc;">
+                    <span style="font-size:2em;">🧠</span>
+                    <h3 style="margin:12px 0 8px 0; font-size:1.15em;">Algorithmique</h3>
+                    <p>Structures de données, complexité, résolution de problèmes</p>
+                </div>
+                <div style="background:rgba(9,29,47,0.7); border-radius:8px; padding:18px; text-align:center; color:#e0eafc;">
+                    <span style="font-size:2em;">🎨</span>
+                    <h3 style="margin:12px 0 8px 0; font-size:1.15em;">UI/UX & Design</h3>
+                    <p>Principes d'ergonomie, prototypage, expériences utilisateur</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Mes Projets</h2>
+            <div style="display: flex; gap: 32px; justify-content: center;">
+                    <div class="project-card" style="flex:1; background:rgba(9,29,47,0.8); border-radius:8px; padding:16px; overflow:hidden;">
+                        <a class="project-link" href="https://github.com/your-academic-projects-link" target="_blank">
+                            <h3>Mes Projets Académiques</h3>
+                            <img src="Image/ProjetAca.PNG" alt="Projet académique">
+                        </a>
+                    </div>
+                    <div class="project-card" style="flex:1; background:rgba(9,29,47,0.8); border-radius:8px; padding:16px; overflow:hidden;">
+                        <a class="project-link" href="https://github.com/your-personal-projects-link" target="_blank">
+                            <h3>Mes Projets Personnels</h3>
+                            <img src="Image/ProjetPers.PNG" alt="Projet personnel">
+                        </a>
+                    </div>
+            </div>
+        </section>
+        <section id="formation">
+            <h2>Formation</h2>
+            <div style="display: flex; gap: 32px;">
+                <div style="flex:1; background:rgba(9,29,47,0.7); border-radius:8px; padding:16px;">
+                    <div class="date">2022 - 2024</div>
+                    <h3>Baccalauréat STI2D (SIN)</h3>
+                    <p>Sciences et Technologies de l'Industrie et du Développement Durable</p>
+                    <p>Spécialité Systèmes d'Information et Numérique</p>
+                    <p>Lycee Paul Eluard</p>
+                </div>
+                <div style="flex:1; background:rgba(9,29,47,0.7); border-radius:8px; padding:16px;">
+                    <div class="date">2024 - présent</div>
+                    <h3>BUT Informatique</h3>
+                    <p>Bachelor Universitaire de Technologie</p>
+                    <p>Spécialisation en Conception et réalisation d'applications</p>
+                    <p>Université Sorbonne Paris Nord</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 32px; justify-content: center; align-items: flex-start;">
+                <div style="flex:1; min-width:260px; background:rgba(9,29,47,0.7); border-radius:8px; padding:24px; margin-bottom:16px; color:#e0eafc; box-shadow:0 2px 12px rgba(9,29,47,0.15);">
+                    <h3 style="margin-top:0;">Informations directes</h3>
+                    <p><span style="font-size:1.2em;">📧</span> <a href="mailto:yasir.manjra01@gmail.com" style="color:#e0eafc; text-decoration:underline;">yasir.manjra01@gmail.com</a></p>
+                    <p><span style="font-size:1.2em;">📱</span> <a href="tel:+330750522813" style="color:#e0eafc; text-decoration:underline;">+33 7 50 52 28 13</a></p>
+                    <p><span style="font-size:1.2em;">💼</span> <a href="https://www.linkedin.com/in/yasir-manjra-2371a5333/" target="_blank" style="color:#e0eafc; text-decoration:underline;">LinkedIn</a></p>
+                </div>
+                <form action="mailto:yasir.manjra01@gmail.com" method="post" enctype="text/plain" style="flex:2; min-width:260px; max-width:500px; margin:auto; background:rgba(255,255,255,0.04); border-radius:8px; padding:24px; box-shadow:0 2px 12px rgba(9,29,47,0.10);">
+                    <div style="margin-bottom:16px;">
+                        <label for="name" style="display:block; margin-bottom:6px;">Nom</label>
+                        <input type="text" id="name" name="name" required style="width:100%; padding:8px; border-radius:4px; border:none;">
+                    </div>
+                    <div style="margin-bottom:16px;">
+                        <label for="Prenom" style="display:block; margin-bottom:6px;">Prénom</label>
+                        <input type="text" id="Prenom" name="Prenom" required style="width:100%; padding:8px; border-radius:4px; border:none;">
+                    </div>
+                    <div style="margin-bottom:16px;">
+                        <label for="email" style="display:block; margin-bottom:6px;">Email</label>
+                        <input type="email" id="email" name="email" required style="width:100%; padding:8px; border-radius:4px; border:none;">
+                    </div>
+                    <div style="margin-bottom:16px;">
+                        <label for="message" style="display:block; margin-bottom:6px;">Message</label>
+                        <textarea id="message" name="message" required style="width:100%; padding:8px; border-radius:4px; border:none; min-height:100px;"></textarea>
+                    </div>
+                    <button class="button" type="submit" style="width:100%;">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Manjra Yasir. Tous droits réservés.
+    </footer>
+    </body>
+
+</html>
